@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/flight_IV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/flight"
+        app:layout_constraintEnd_toStartOf="@+id/bus_IV"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/flight_TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/string_flight"
+        app:layout_constraintTop_toBottomOf="@id/flight_IV"
+        app:layout_constraintStart_toStartOf="@id/flight_IV"
+        app:layout_constraintEnd_toEndOf="@id/flight_IV"/>
+
+    <ImageView
+        android:id="@+id/bus_IV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bus"
+        app:layout_constraintTop_toTopOf="@id/flight_IV"
+        app:layout_constraintStart_toEndOf="@id/flight_IV"
+        app:layout_constraintEnd_toStartOf="@+id/cabs_IV"/>
+
+    <TextView
+        android:id="@+id/bus_TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/string_bus"
+        app:layout_constraintTop_toBottomOf="@id/bus_IV"
+        app:layout_constraintStart_toStartOf="@id/bus_IV"
+        app:layout_constraintEnd_toEndOf="@id/bus_IV"/>
+
+    <ImageView
+        android:id="@+id/cabs_IV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cabs"
+        app:layout_constraintTop_toTopOf="@id/bus_IV"
+        app:layout_constraintStart_toEndOf="@id/bus_IV"
+        app:layout_constraintEnd_toStartOf="@+id/holidays_IV"/>
+
+    <TextView
+        android:id="@+id/cabs_TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/string_cabs"
+        app:layout_constraintTop_toBottomOf="@id/cabs_IV"
+        app:layout_constraintStart_toStartOf="@id/cabs_IV"
+        app:layout_constraintEnd_toEndOf="@id/cabs_IV"/>
+
+    <ImageView
+        android:id="@+id/holidays_IV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/holidays"
+        app:layout_constraintTop_toTopOf="@id/cabs_IV"
+        app:layout_constraintStart_toEndOf="@id/cabs_IV"
+        app:layout_constraintEnd_toStartOf="@+id/hotel_IV"/>
+
+    <TextView
+        android:id="@+id/holidays_TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/string_holidays"
+        app:layout_constraintTop_toBottomOf="@id/holidays_IV"
+        app:layout_constraintStart_toStartOf="@id/holidays_IV"
+        app:layout_constraintEnd_toEndOf="@id/holidays_IV"/>
+
+    <ImageView
+        android:id="@+id/hotel_IV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/hotel"
+        app:layout_constraintTop_toTopOf="@id/holidays_IV"
+        app:layout_constraintStart_toEndOf="@id/holidays_IV"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/hotel_TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/string_hotel"
+        app:layout_constraintTop_toBottomOf="@id/hotel_IV"
+        app:layout_constraintStart_toStartOf="@id/hotel_IV"
+        app:layout_constraintEnd_toEndOf="@id/hotel_IV"/>
+
+</android.support.constraint.ConstraintLayout>

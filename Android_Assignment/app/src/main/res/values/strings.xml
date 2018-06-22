@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Assignment</string>
+
+    <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="string_login_username">username</string>
+    <string name="string_login_password">password</string>
+    <string name="string_ok">OK</string>
+    <string name="string_reset_pwd">Reset Password</string>
+    <string name="string_invalid_email_and_pwd">Please check your email id and password.</string>
+    <string name="string_invalid_email">Please check your email id.</string>
+    <string name="string_invalid_password">Password cannot be blank.</string>
+
+    <string name="string_flight">Flight</string>
+    <string name="string_bus">Bus</string>
+    <string name="string_cabs">Cabs</string>
+    <string name="string_holidays">Holidays</string>
+    <string name="string_hotel">Hotel</string>
+
+    <string name="string_cab_booking">Cab Booking</string>
+
+    <string name="string_one_way_trip">One Way Trip</string>
+    <string name="string_round_trip">Round Trip</string>
+    <string name="string_pickup_city">Pickup City</string>
+    <string name="string_drop_city">Drop City</string>
+
+    <string name="string_pickup_date">PICK UP DATE</string>
+    <string name="string_pickup_time">PICK UP TIME</string>
+
+    <string name="string_select_pickup">Please select a pickup city</string>
+    <string name="string_select_drop">Please select a drop city</string>
+    <string name="string_past_date_time">Sorry!!! We don\'t service in the past</string>
+    <string name="string_search">Search</string>
+
+    <string name="string_cab_list">Cab List</string>
+    <string name="string_share_all">SHARE ALL</string>
+
+    <string name="string_car_names">Indica, Swift, Alto, Ford Figo or \nequivalent</string>
+    <string name="string_total_seats">%d Seats</string>
+    <string name="string_fare">₹%s</string>
+    <string name="string_commission">Commission:%s</string>
+    <string name="string_note">Note: Extra charges after 155 Kms. ₹%s/km</string>
+
+    <string name="string_booking_details">Booking Details</string>
+    <string name="string_total_bags">%d Bags</string>
+
+
+    <string name="string_included_in_price">Included in this price</string>
+    <string name="string_included_1">&#160;- 155 kms</string>
+    <string name="string_included_2">&#160;- Toll and State taxes</string>
+    <string name="string_included_3">&#160;- Driver Charges</string>
+    <string name="string_included_4">&#160;- One pickup and drop</string>
+
+    <string name="string_extra_charges">Extra Charges</string>
+    <string name="string_extra_charges_1_1">Night Charges [9pm to 6am]</string>
+    <string name="string_extra_charges_1_2">Rs.250/Night</string>
+    <string name="string_extra_charges_2_1">Waiting Charges</string>
+    <string name="string_extra_charges_2_2">Rs.100 every 30 mins</string>
+    <string name="string_extra_charges_3_1">Parking Charges</string>
+    <string name="string_extra_charges_3_2">As Applicable</string>
+
+    <string name="string_important_info">Important Info</string>
+    <string name="string_important_info_1">&#160;- Only one stop for meals is permitted.</string>
+    <string name="string_important_info_2">&#160;- AC will be switched off in hilly areas.</string>
+    <string name="string_important_info_3">&#160;- Driver details will be shared 2 hours</string>
+    <string name="string_important_info_4">prior to departure</string>
+
+    <string name="string_book">Book</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

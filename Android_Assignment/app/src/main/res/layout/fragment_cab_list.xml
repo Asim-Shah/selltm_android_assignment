@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:background="@color/color_sky_blue"
+        android:padding="@dimen/dimen_8_dp"
+        android:layout_marginBottom="@dimen/dimen_10_dp"
+        android:elevation="@dimen/dimen_10_dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/trip_type_TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/font_16_sp"
+            android:textStyle="bold"
+            android:text="ONE WAY TRIP"/>
+
+        <TextView
+            android:id="@+id/pickup_city_TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:text="Mumbai"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_8_dp"
+            android:layout_marginBottom="@dimen/dimen_8_dp"
+            android:src="@drawable/down_arrow"/>
+
+        <TextView
+            android:id="@+id/drop_city_TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:text="Pune"/>
+
+        <TextView
+            android:id="@+id/pickup_date_time_TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:text="10 Jun - 03:40 pm"/>
+
+        <TextView
+            android:id="@+id/distance_TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:text="155 km"/>
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/cabs_list_RV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
