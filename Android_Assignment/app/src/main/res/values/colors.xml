@@ -10,4 +10,6 @@
 
     <color name="color_font_grey">#6f6f6f</color>
     <color name="color_sky_blue">#41c1d9</color>
+
+    <color name="color_button_all_packages">#4b73cc</color>
 </resources>

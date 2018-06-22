@@ -1,4 +1,4 @@
-package com.selltm.assignment.home.adapters;
+package com.selltm.assignment.holiday.adapters;
 
 import android.content.Context;
 import android.support.v4.view.PagerAdapter;
@@ -14,12 +14,12 @@ import com.squareup.picasso.Picasso;
 /**
  * Created by Asim on 22/06/18.
  */
-public class ImageSwipeAdapter extends PagerAdapter {
+public class HolidaySwipeAdapter extends PagerAdapter {
     private Context context;
     private LayoutInflater layoutInflater;
     private int[] images;
 
-    public ImageSwipeAdapter(Context context) {
+    public HolidaySwipeAdapter(Context context) {
         this.context = context;
     }
 
@@ -34,9 +34,9 @@ public class ImageSwipeAdapter extends PagerAdapter {
     @Override
     public Object instantiateItem(ViewGroup container, int position) {
         layoutInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        View item_view = layoutInflater.inflate(R.layout.swipe_layout, container, false);
-        ImageView imageView = item_view.findViewById(R.id.images);
-        Picasso.with(context).load(R.drawable.image1).into(imageView);
+        View item_view = layoutInflater.inflate(R.layout.holiday_swipe_layout, container, false);
+        ImageView imageView = item_view.findViewById(R.id.holiday_images);
+        Picasso.with(context).load(R.drawable.image2).into(imageView);
         container.addView(item_view);
         return item_view;
     }

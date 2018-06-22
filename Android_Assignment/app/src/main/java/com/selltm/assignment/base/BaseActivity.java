@@ -82,6 +82,24 @@ public class BaseActivity extends AppCompatActivity {
         }
     }
 
+    public void setHolidayToolbar() {
+        showActionBar();
+        View mCustomView = getLayoutInflater().inflate(R.layout.action_bar_holiday, null);
+        toolbar.removeAllViews();
+        toolbar.addView(mCustomView, new Toolbar.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,
+                ViewGroup.LayoutParams.WRAP_CONTENT, Gravity.CENTER));
+        if(null != getSupportActionBar()) {
+            getSupportActionBar().setElevation(0);
+            mToolbarTitle = mCustomView.findViewById(R.id.title);
+            /*navigationDrawerButton = mCustomView.findViewById(R.id.navigation_drawer_button);
+            if(null != navigationDrawerButton)
+                navigationDrawerButton.setOnClickListener(onClickListener);*/
+            backButton = mCustomView.findViewById(R.id.back_button);
+            if(null != backButton)
+                backButton.setOnClickListener(onClickListener);
+        }
+    }
+
     public void setToolbarShare() {
         showActionBar();
         View mCustomView = getLayoutInflater().inflate(R.layout.action_bar_share, null);

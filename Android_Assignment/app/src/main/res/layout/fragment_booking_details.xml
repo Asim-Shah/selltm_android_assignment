@@ -18,11 +18,10 @@
             <include layout="@layout/booking_details_selected_car_card" />
     
             <include layout="@layout/booking_details_hardcoded_cards" />
-    
-    
-    
+
+            <include layout="@layout/traveller_details_layout" />
+
         </LinearLayout>
-    
     </ScrollView>
     
     <Button

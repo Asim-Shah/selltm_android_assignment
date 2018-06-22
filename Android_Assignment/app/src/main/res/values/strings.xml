@@ -66,7 +66,10 @@
 
     <string name="string_book">Book</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="string_traveller_details">Traveller Details</string>
+
+    <string name="string_please_complete">Please fill in the required (*) fields.</string>
+
+    <string name="string_holiday_details">Test \n₹3000 test \ntest \n3 days 4 nights \nCommission:₹200</string>
 
 </resources>

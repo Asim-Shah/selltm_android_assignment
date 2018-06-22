@@ -86,14 +86,6 @@ public class LoginFragment extends Fragment {
         passwordET = view.findViewById(R.id.password_ET);
         buttonOk = view.findViewById(R.id.button_ok);
         buttonPwdReset = view.findViewById(R.id.button_reset_pwd);
-
-        temp();
-    }
-
-    private void temp() {
-        //TestTAG
-        usernameET.setText("asim@gmail.com");
-        passwordET.setText("asim");
     }
 
     private void setOnclickListeners() {
